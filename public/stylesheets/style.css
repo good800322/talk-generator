@@ -1,0 +1,46 @@
+#board{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 50px 100px;
+}
+#title{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 50px auto;
+}
+.character{
+  display: flex;
+  flex-flow: column;
+  width: 30%;
+}
+img{
+  width: 90%;
+  height: 280px;
+}
+form{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.form-check{
+  width: 33%;
+  text-align: center;
+}
+#show-box{
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+#button-box{
+  width: 15%;
+}
+#talk-box{
+  width: 80%;
+  border:solid grey 1px;
+}

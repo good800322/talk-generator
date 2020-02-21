@@ -1,0 +1,51 @@
+<div id="board">
+  <div id="title">
+    你想對誰說幹話?
+  </div>
+  <div class="character">
+    <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg">
+
+  </div>
+  <div class="character">
+    <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg">
+
+  </div>
+  <div class="character">
+    <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg">
+  </div>
+  <form method="POST" action="/">
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radios1" value="engineer">
+      <label class="form-check-label" for="engineer">
+        工程師
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radios2" value="designer">
+      <label class="form-check-label" for="designer">
+        設計師
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radios3" value="entrepreneur">
+      <label class="form-check-label" for="Entrepreneur">
+        創業家
+      </label>
+    </div>
+    <div id="show-box">
+      <div id="button-box">
+        <div id="button">
+          <button type="submit" class="btn btn-info">產生幹話</button>
+        </div>
+      </div>
+      <div id="talk-box">
+        {{#if talk}}
+        <div class="alert alert-light" role="alert">
+          {{talk}}
+        </div>
+        {{/if}}
+      </div>
+    </div>
+  </form>
+  {{!-- <div id="show-box"></div> --}}
+</div>
