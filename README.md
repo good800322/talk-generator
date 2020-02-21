@@ -6,7 +6,7 @@
 1. 打開你的 terminal，Clone 此專案至本機電腦
 > git clone https://github.com/good800322/talk-generator
 2. 開啟終端機(Terminal)，進入存放此專案的資料夾
-> cd restaurant-list
+> cd talk_generator
 3. 安裝 npm 套件
 > 在 Terminal 輸入 npm install 指令
 4. 啟動伺服器，執行 app.js 檔案
